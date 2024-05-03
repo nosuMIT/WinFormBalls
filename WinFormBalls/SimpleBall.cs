@@ -28,7 +28,7 @@ namespace WinFormBalls
             vy = rnd.Next(-MAXSpeed, MAXSpeed);
             clearColor = form.BackColor;
             timer = new Timer();
-            timer.Interval = 1000;
+            timer.Interval = 100;
             timer.Tick += Timer_Tick;
         }
 
